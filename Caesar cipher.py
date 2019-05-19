@@ -1,5 +1,5 @@
-alpabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
-stringToEncrypt = input("Please enter a message to encrpt: ")
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
+stringToEncrypt = input("Please enter a message to encrpt: \n")
 stringToEncrypt = stringToEncrypt.upper()
 shiftAmount = int(input("Please enter a whole number from 1-25 to be your key.\n"))
 encryptedString = ""
